@@ -348,67 +348,6 @@ input[type="radio"]:checked + label:before {
       color: #c183d6; }
 
 /* -----------------------------------------------------------------------------
-// 5. Alerts 
-// ----------------------------------------------------------------------------- */
-.alert {
-  position: relative;
-  margin: 15px 0;
-  padding: 15px 40px 15px 60px;
-  border: none;
-  background-color: #f9f9f9;
-  font-size: 16px; }
-  .alert:before {
-    font-family: 'FontAwesome';
-    content: '\f0e0';
-    font-size: 18px;
-    color: #c4c4c4;
-    position: absolute;
-    top: 16px;
-    left: 20px; }
-  .alert p {
-    margin: 0; }
-  .alert .alert-close {
-    position: absolute;
-    top: 15px;
-    right: 12px;
-    font-size: 14px;
-    color: #cacaca;
-    background: transparent;
-    border: none; }
-    .alert .alert-close:focus {
-      outline: none; }
-  .alert-warning {
-    background-color: #fff9e6;
-    color: #fcdc7b; }
-    .alert-warning:before {
-      content: '\f0f3';
-      color: #fcdc7b; }
-  .alert-danger {
-    background-color: #ffdee2;
-    color: #e56f85; }
-    .alert-danger:before {
-      content: '\f071';
-      color: #e56f85; }
-  .alert-success {
-    background-color: #ecfac3;
-    color: #a1be4d; }
-    .alert-success:before {
-      content: '\f00c';
-      color: #a1be4d; }
-  .alert-help {
-    background-color: #ddf4ff;
-    color: #5fb0d6; }
-    .alert-help:before {
-      content: '\f0e9';
-      color: #5fb0d6; }
-  .alert-info {
-    background-color: #faebff;
-    color: #c183d6; }
-    .alert-info:before {
-      content: '\f0a1';
-      color: #c183d6; }
-
-/* -----------------------------------------------------------------------------
 // 6. CTA 
 // ----------------------------------------------------------------------------- */
 .cta {
