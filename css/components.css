@@ -84,9 +84,9 @@
     border-color: #4b4b4b; }
 
 .btn-colored {
-  background-color: #835c4b;
+  background-color: #DD241B;
   color: #fff;
-  border-color: #835c4b; }
+  border-color: #DD241B; }
   .btn-colored:hover {
     background: transparent;
     color: #835c4b;
@@ -262,7 +262,7 @@ input[type="radio"]:checked + label:before {
     display: block;
     width: 30px;
     height: 3px;
-    background-color: #fff;
+    background-color: #DD241B;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out; }
     .toggle .icon-bar + .icon-bar {
