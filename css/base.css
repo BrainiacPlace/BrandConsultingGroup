@@ -74,7 +74,7 @@ b {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
-  color: #181818;
+  color: #DD241B;
   font-weight: 300; }
 
 h1, .h1 {
@@ -96,15 +96,15 @@ h6, .h6 {
   font-size: 12px; }
 
 ::selection {
-  background-color: #835c4b;
+  background-color: #DD241B;
   color: #fff; }
 
 ::-moz-selection {
-  background-color: #835c4b;
+  background-color: #DD241B;
   color: #fff; }
 
 .selected {
-  background-color: #835c4b;
+  background-color: #DD241B;
   color: #fff; }
 
 mark,

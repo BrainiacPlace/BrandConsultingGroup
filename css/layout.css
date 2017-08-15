@@ -28,8 +28,8 @@ header {
     opacity: 0;
     height: 800px;
     height: 100vh;
-    background-color: #fff;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #DD241B;
+    background-color: rgba(221, 36, 27, 1);
     width: 20%;
     padding-left: 40px;
     padding-top: 100px;
@@ -41,7 +41,7 @@ header {
     header nav.sidebar li {
       margin-bottom: 20px; }
       header nav.sidebar li a {
-        color: #4b4b4b;
+        color: #fff;
         font-weight: 700;
         letter-spacing: 1px;
         text-transform: uppercase;

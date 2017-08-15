@@ -5,7 +5,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Brand Consulting Group | Firma de consultoría de relaciones públicas y comunicación estratégica</title>
         <meta name="description" content="Firma de consultoría de relaciones públicas y comunicación estratégica">
-    	<meta name="author" content="SCM Desarrollos" />
+        <meta name="author" content="SCM Desarrollos" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- FAVICONS -->
@@ -29,7 +29,7 @@
         <!-- MODERNIZR -->
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body class="homepage">
+    <body class="coffees">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -70,13 +70,47 @@
             </nav>
         </header>
 
-        <!-- SECTION 1 - HERO SPLASH -->
-        <section class="hero-splash">
-                <!-- SLIDE -->
-                <div>
-                    <img src="img/splash.jpg" alt="Brand Consulting Group">
+        <!-- SECTION 1 - CONTACT MAP -->
+        <section class="contact-map">
+            <h2 class="hidden">Contact Map</h2>
+        </section>
+        <!-- // SECTION 1 -->
+
+        <!-- SECTION 2 - CONTACT -->
+        <section class="contact space">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Say Hello!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla corper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                    </div>
                 </div>
-        </section><!-- // SECTION 1 -->
+
+                <div class="row">
+                    <form action="contactform/contact-form-handler.php" method="post" name="contactform">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Full Name">
+                                    <input type="tel" class="form-control" placeholder="Phone">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Email Address">
+                                    <input type="text" class="form-control" placeholder="Website">
+                                </div>
+                                <div class="col-xs-12">
+                                    <textarea rows="10" class="form-control" name="message" id="message" placeholder="Write Message"></textarea>
+                                    <div class="text-center">
+                                        <button type="submit" name="submit" class="btn btn-default btn-colored">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION 2 -->
 
         <footer>
             <div class="container">

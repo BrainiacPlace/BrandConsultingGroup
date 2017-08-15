@@ -23,11 +23,9 @@
       display: block;
       width: 164px;
       height: 21px;
-      margin: 0 auto 20px auto;
-      background: url(../img/headline-vector.png) center center; }
+      margin: 0 auto 20px auto;}
 .homepage .hero-splash {
   position: relative;
-  height: 800px;
   min-height: 100vh;
   overflow: hidden;
   text-align: center;
@@ -73,8 +71,7 @@
       display: block;
       width: 33px;
       height: 5px;
-      margin: 20px auto;
-      background: url(../img/vector.png) center center; }
+      margin: 20px auto;}
 @media (max-width: 992px) {
   .homepage .welcome .item {
     margin-bottom: 30px; } }
@@ -210,8 +207,7 @@
       display: block;
       width: 164px;
       height: 21px;
-      margin: 0 auto 20px auto;
-      background: url(../img/headline-vector.png) center center; }
+      margin: 0 auto 20px auto;}
 .about .hero-title {
   background-image: url(http://placehold.it/1895x1000); }
 
@@ -231,7 +227,7 @@
       width: 164px;
       height: 21px;
       margin: 0 auto 20px auto;
-      background: url(../img/headline-vector.png) center center; }
+       }
 .shop .hero-title {
   background-image: url(http://placehold.it/1895x1000); }
 .shop .gallery .item {
@@ -307,7 +303,7 @@
       width: 164px;
       height: 21px;
       margin: 0 auto 20px auto;
-      background: url(../img/headline-vector.png) center center; }
+   }
 .shop-detail .hero-title {
   background-image: url(http://placehold.it/1895x1000); }
 .shop-detail .post h3 {
@@ -391,7 +387,7 @@
       width: 164px;
       height: 21px;
       margin: 0 auto 20px auto;
-      background: url(../img/headline-vector.png) center center; }
+   }
 .coffees .hero-title {
   background-image: url(http://placehold.it/1895x1000); }
 .coffees .item {
@@ -411,8 +407,7 @@
       display: block;
       width: 33px;
       height: 5px;
-      margin: 20px auto;
-      background: url(../img/vector.png) center center; }
+      margin: 20px auto; }
 
 /* -----------------------------------------------------------------------------
 // 6. Contact Page 
